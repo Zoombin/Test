@@ -1,6 +1,6 @@
 <?php
 
-require_once ('./php-mysqli-database-class/MysqliDb.php');
+require_once ('./submodules/php-mysqli-database-class/MysqliDb.php');
 
 // echo phpinfo();
 
@@ -14,7 +14,7 @@ if ($ip == '112.124.98.9') {
 // var_dump($db);
 
 $user = $db->getOne('user');
-// var_dump($user);
+var_dump($user);
 // var_dump("expression");
 
 // var_dump("hofhaohfoahf");
