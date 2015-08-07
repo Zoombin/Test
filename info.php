@@ -13,7 +13,7 @@ if ($ip == '112.124.98.9') {
 
 // var_dump($db);
 
-// $user = $db->getOne('user');
+$user = $db->getOne('user');
 // var_dump($user);
 var_dump("expression");
 
