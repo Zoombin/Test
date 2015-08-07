@@ -9,9 +9,10 @@ if ($ip == '112.124.98.9') {
 }
 
 $users = $db->get('user');
+var_dump($users);
 if ($db->count > 0) {
     foreach ($users as $user) { 
-        var_dump($user);
+        // var_dump($user);
     }
 }
 
