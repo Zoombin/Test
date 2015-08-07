@@ -2,6 +2,8 @@
 
 require_once ('./submodules/php-mysqli-database-class/MysqliDb.php');
 
+echo phpinfo();
+
 $ip = $_SERVER['SERVER_ADDR'];
 if ($ip == '112.124.98.9') {
 	$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
@@ -9,15 +11,16 @@ if ($ip == '112.124.98.9') {
 	$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
 }
 
-var_dump($db);
+// var_dump($db);
 
-$users = $db->get('user');
+$user = $db->getOne('user');
+var_dump($user);
 
-var_dump("hofhaohfoahf");
-if ($db->count > 0) {
-    foreach ($users as $user) { 
-        // var_dump($user);
-    }
-}
+// var_dump("hofhaohfoahf");
+// if ($db->count > 0) {
+//     foreach ($users as $user) { 
+//         //var_dump($user);
+//     }
+// }
 
 ?>
