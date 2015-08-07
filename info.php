@@ -2,9 +2,10 @@
 
 require_once ('./submodules/php-mysqli-database-class/MysqliDb.php');
 
-$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
 $ip = $_SERVER['SERVER_ADDR'];
 if ($ip == '112.124.98.9') {
+	$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
+} else {
 	$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
 }
 
