@@ -9,7 +9,7 @@ if ($ip == '112.124.98.9') {
 	$db = new MysqliDb ('localhost:3306', 'root', 'Dsh12345', 'trafficpolice');
 }
 
-var_dump($ip);
+var_dump($db);
 $users = $db->get('user');
 var_dump($users);
 if ($db->count > 0) {
