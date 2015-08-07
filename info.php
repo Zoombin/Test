@@ -1,6 +1,6 @@
 <?php
 
-require_once ('./submodules/php-mysqli-database-class/MysqliDb.php');
+require_once ('./php-mysqli-database-class/MysqliDb.php');
 
 // echo phpinfo();
 
