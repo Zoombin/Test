@@ -431,11 +431,11 @@ class MysqliDb
             var_dump('123');
             return $res;
         }
-        else if (is_array ($res) && isset ($res[0])) {
+        elseif (is_array ($res) && isset ($res[0])) {
             var_dump('321');
             return $res[0];
         }
-        else if ($res) {
+        elseif ($res) {
             var_dump('abc');
             return $res;
         }
