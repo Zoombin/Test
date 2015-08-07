@@ -425,16 +425,23 @@ class MysqliDb
      */
     public function getOne($tableName, $columns = '*')
     {
-        var_dump("expression123123");
         $res = $this->get ($tableName, 1, $columns);
 
-        if ($res instanceof MysqliDb)
+        if ($res instanceof MysqliDb) {
+            var_dump('123');
             return $res;
-        else if (is_array ($res) && isset ($res[0]))
+        }
+        else if (is_array ($res) && isset ($res[0])) {
+            var_dump('321');
             return $res[0];
-        else if ($res)
-            return $res;
 
+        }
+        else if ($res) {
+            // echo $res;
+            // var_dump($res);
+            return $res;
+        }
+        var_dump("expression123123");
         return null;
     }
 

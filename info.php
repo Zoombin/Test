@@ -15,7 +15,7 @@ if ($ip == '112.124.98.9') {
 
 $user = $db->getOne('user');
 // var_dump($user);
-var_dump("expression");
+// var_dump("expression");
 
 // var_dump("hofhaohfoahf");
 // if ($db->count > 0) {
