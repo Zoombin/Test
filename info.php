@@ -2,7 +2,7 @@
 
 require_once ('./submodules/php-mysqli-database-class/MysqliDb.php');
 
-echo phpinfo();
+// echo phpinfo();
 
 $ip = $_SERVER['SERVER_ADDR'];
 if ($ip == '112.124.98.9') {
@@ -13,8 +13,9 @@ if ($ip == '112.124.98.9') {
 
 // var_dump($db);
 
-$user = $db->getOne('user');
-var_dump($user);
+// $user = $db->getOne('user');
+// var_dump($user);
+var_dump("expression");
 
 // var_dump("hofhaohfoahf");
 // if ($db->count > 0) {
