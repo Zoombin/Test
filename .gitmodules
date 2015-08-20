@@ -4,3 +4,6 @@
 [submodule "submodules/monolog"]
 	path = submodules/monolog
 	url = https://github.com/Seldaek/monolog.git
+[submodule "submodules/klogger"]
+	path = submodules/klogger
+	url = https://github.com/katzgrau/KLogger.git
