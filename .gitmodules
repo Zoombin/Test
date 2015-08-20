@@ -1,9 +1,0 @@
-[submodule "submodules/php-mysqli-database-class"]
-	path = submodules/php-mysqli-database-class
-	url = https://github.com/joshcam/PHP-MySQLi-Database-Class.git
-[submodule "submodules/monolog"]
-	path = submodules/monolog
-	url = https://github.com/Seldaek/monolog.git
-[submodule "submodules/klogger"]
-	path = submodules/klogger
-	url = https://github.com/katzgrau/KLogger.git
