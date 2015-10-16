@@ -1,0 +1,26 @@
+
+
+.ul-img{
+    width:6.225rem;
+    margin-left: 0.175rem;
+    margin-top: 0.175rem;
+}
+.ul-img li{
+    width: 1.9rem;
+    height: 2.2rem;
+    float: left;
+    margin-right: 0.175rem;
+    margin-bottom: 0.175rem;
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.ul-img li .img{
+    width: 1.9rem;
+    height: 1.9rem;
+    display: inline-block;
+}
+.ul-img li .img img{
+    width: 1.9rem;
+    height: 1.9rem;
+}
