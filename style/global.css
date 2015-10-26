@@ -1,0 +1,138 @@
+﻿body{
+	background:#E2E2E2;
+}
+.innerbox{
+	max-width: 720px;
+	margin:0 auto;
+}
+.header{
+	background:#FF4545;
+}
+.souinpt{
+	border: none;
+	height: 32px;
+	outline: none;
+}
+.sousuokuang {
+	position:relative;
+}
+.soubtn{
+	position:absolute;
+	right: 30px;
+	line-height:32px;
+}
+.daobox {
+	text-align:center;
+}
+.daobox {
+	padding:0px 12px;
+}
+.daobox li{
+	display: inline-block;
+	width: 33.3%;
+	padding:2px 4px;
+	padding-bottom:8px;
+	
+}
+.daobox li a{
+	display:block;
+	padding:0px 4px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.daobox li a .img img{
+	height: 60px;
+}
+.daobox .wenzi{
+	height: 36px;
+	overflow:hidden;
+	color: white;
+}
+.daobox li.tu1 a{background:#4473DD;}
+.daobox li.tu2 a{background:#FF4545;}
+.daobox li.tu3 a{background:#FE864A;}
+.daobox li.tu4 a{background:#92D00F;}
+.daobox li.tu5 a{background:#3AD1BE;}
+.daobox li.tu6 a{background:#CE5CEF;}
+.daobox li.tu7 a{background:#7CA8E5;}
+.daobox li.tu8 a{background:#4473DD;}
+.daobox li.tu9 a{background:#FF4545;}
+.daobox li.last{
+	border:3px dashed #C1C1C1;
+	padding:22px 2%;
+	font-size: 18px;
+	color:#9A9A9A;
+	min-height: 114px;
+}
+.header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100;
+}
+.navbottom {
+	border-top:1px solid #9E9E9E;
+	background: white;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100;
+}
+.bmli{
+	text-align:center;
+	padding-top:38px;
+	color:#444;
+	padding-bottom:8px;
+}
+.bmli.cur{
+	color:#FF4545;
+}
+.bmli.bmli1{background: url(../images/bm1.png) no-repeat center 8px;background-size: auto 30px;}
+.bmli.bmli2{background: url(../images/bm2.png) no-repeat center 8px;background-size: auto 30px;}
+.bmli.bmli3{background: url(../images/bm3.png) no-repeat center 8px;background-size: auto 30px;}
+.bmli.bmli4{background: url(../images/bm4.png) no-repeat center 8px;background-size: auto 30px;}
+
+.tutuul{text-align:center;padding:12px;}
+.tutuul li{
+	float:left;
+	width: 33.3%;
+	padding:0px 4px;
+	padding-bottom:12px;
+}
+.tutuul li a{
+	display:block;
+	padding:50% 0px;
+	position:relative;
+}
+.tutuul li a img{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.tanchuceng{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	z-index: 110;
+	background: rgba(0,0,0,0.4);
+	display:none;
+}
+.tanchuin{
+	width: 95%;
+	margin:0 auto;
+	border-radius: 8px;
+	background: white;
+	min-height: 40px;
+	padding:12px;
+	text-align:center;
+}
+.tanchuimg img{
+	max-width: 97%;
+}
